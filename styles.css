@@ -24,8 +24,8 @@ body {
 }
 
 .preview-content {
-    width: 300px;
-    height: 400px;
+    width: 350px;
+    height: 450px;
     background-color:  hsl(0, 0%, 100%);
     border: 1px solid black;
     border-radius: 10px;
@@ -96,6 +96,7 @@ a:hover {
 .avatar {
     display: flex;
     align-items: center;
+    margin-top: 20px;
 }
 
 .avatar p {
