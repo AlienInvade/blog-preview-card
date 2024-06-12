@@ -30,6 +30,7 @@ body {
     border: 1px solid black;
     border-radius: 10px;
     box-shadow: 5px 5px black;
+    transition: box-shadow 300ms ease-in-out;
 }
 
 .img-container {
@@ -84,8 +85,7 @@ a:hover {
 
 .preview-content:hover {
     box-shadow: 12px 12px black;
-    transition-duration: 1s;
-    transition-property: box-shadow;
+    transition: box-shadow 1s ease-in-out;
 }
 
 .long-p {
